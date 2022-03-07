@@ -26,6 +26,7 @@ namespace MotorTest
         public int modeleId { get; set; }
 
         public int prix { get; set; }
+        public int idPeinture { get; set; }
 
         [Key]
         public int idVoiture { get; set; }
